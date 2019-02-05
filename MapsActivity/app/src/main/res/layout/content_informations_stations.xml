@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        app:srcCompat="@mipmap/info" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/titre"
+        android:textColor="#3498db"
+        android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/contrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/banking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Bikes_Stands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Available_BS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Available_Bikes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Statut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/maj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+</LinearLayout>
